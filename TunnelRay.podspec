@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'TunnelRay'
-    s.version          = '1.0.4'
+    s.version          = '1.0.5'
     s.summary          = 'A short description of TunnelRay.'
 #     s.description      = <<-DESC
 #   TODO: Add long description of the pod here.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
     s.ios.vendored_frameworks = 'TunnelRay.xcframework' # Your XCFramework
-    s.dependency 'CocoaLumberjack', '~> 3.7.0'
+    s.dependency 'CocoaLumberjack/Swift', '~> 3.7.0'
     s.dependency 'CryptoSwift', '~> 1.4.2'
     s.dependency 'BlueRSA', '~> 1.0.200'
     s.dependency 'Alamofire', '~> 5.4.0'
