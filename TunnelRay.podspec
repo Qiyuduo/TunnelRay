@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   
     s.ios.deployment_target = '13.0'
     s.platform = :ios
+    s.swift_version = "5.2"
   
     # s.source_files = './TunnelRay.xcframework.zip'
     
@@ -32,12 +33,7 @@ Pod::Spec.new do |s|
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
     s.user_target_xcconfig = {
-      'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/TunnelRay.framework"'
+      'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/TunnelRay/TunnelRay.framework"'
     }
     s.ios.vendored_frameworks = 'TunnelRay.framework' # Your XCFramework
-    s.dependency 'CocoaLumberjack/Swift', '~> 3.7.0'
-    s.dependency 'CryptoSwift', '~> 1.4.2'
-    s.dependency 'BlueRSA', '~> 1.0.200'
-    s.dependency 'Alamofire', '~> 5.4.0'
-    s.dependency 'SwiftyJSON', '~> 5.0.0'
   end
