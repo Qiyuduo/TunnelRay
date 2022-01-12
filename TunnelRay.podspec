@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
     s.name             = 'TunnelRay'
     s.version          = '1.0.16'
-    s.summary          = 'A short description of TunnelRay.'
+    s.summary          = 'TunnelRay ios package which help you to manage the Tunnel connection.'
 #     s.description      = <<-DESC
 #   TODO: Add long description of the pod here.
 #                          DESC
